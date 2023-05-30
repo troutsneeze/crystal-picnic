@@ -1,0 +1,27 @@
+"lang"
+{
+	"Language"	"german"
+	"Tokens"
+	{
+		"NEW_ACHIEVEMENT_1_0_NAME"	"Schatz in Sicht"
+		"NEW_ACHIEVEMENT_1_0_DESC"	"Öffne jede Schatztruhe im Spiel."
+		"NEW_ACHIEVEMENT_1_1_NAME"	"Die Angeklagten"
+		"NEW_ACHIEVEMENT_1_1_DESC"	"Sieh dir an, wer der Erschaffung dieses Spiels bezichtigt wird."
+		"NEW_ACHIEVEMENT_1_2_NAME"	"Honey Bunny"
+		"NEW_ACHIEVEMENT_1_2_DESC"	"Entkomme den Bienen im Bonusspiel."
+		"NEW_ACHIEVEMENT_1_3_NAME"	"Herausgeputzt"
+		"NEW_ACHIEVEMENT_1_3_DESC"	"Fülle alle Kristallplätze."
+		"NEW_ACHIEVEMENT_1_4_NAME"	"Aufgemotzt"
+		"NEW_ACHIEVEMENT_1_4_DESC"	"Benutze einen Kristall."
+		"NEW_ACHIEVEMENT_1_5_NAME"	"Boing Boing"
+		"NEW_ACHIEVEMENT_1_5_DESC"	"Gewinne einen Preis bei Hau-das-Stinktier."
+		"NEW_ACHIEVEMENT_1_6_NAME"	"Mach sie fertig"
+		"NEW_ACHIEVEMENT_1_6_DESC"	"Verbessere den Angriffswert eines Charakters bis zum Maximum."
+		"NEW_ACHIEVEMENT_1_7_NAME"	"Nicht zu stoppen"
+		"NEW_ACHIEVEMENT_1_7_DESC"	"Verbessere die Verteidigung eines Charakters bis zum Maximum."
+		"NEW_ACHIEVEMENT_1_8_NAME"	"Egberts Teich"
+		"NEW_ACHIEVEMENT_1_8_DESC"	"Finde Egberts Haus."
+		"NEW_ACHIEVEMENT_1_9_NAME"	"Frogberts Seerose"
+		"NEW_ACHIEVEMENT_1_9_DESC"	"Finde Frogberts Haus."
+	}
+}

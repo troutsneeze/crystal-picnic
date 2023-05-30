@@ -1,0 +1,21 @@
+diff --git a/android/allegro_activity/src/AllegroActivity.java b/android/allegro_activity/src/AllegroActivity.java
+index eeec061..d6fa7f1 100644
+--- a/android/allegro_activity/src/AllegroActivity.java
++++ b/android/allegro_activity/src/AllegroActivity.java
+@@ -1,5 +1,4 @@
+ package org.liballeg.android;
+-
+ import android.app.Activity;
+ import android.content.Context;
+ import android.content.pm.ActivityInfo;
+@@ -22,8 +21,9 @@ import java.lang.Runnable;
+ import java.lang.String;
+ import android.view.InputDevice;
+ import java.util.Vector;
++import android.support.v4.app.FragmentActivity;
+ 
+-public class AllegroActivity extends Activity
++public class AllegroActivity extends FragmentActivity
+ {
+    /* properties */
+    private String userLibName = "libapp.so";

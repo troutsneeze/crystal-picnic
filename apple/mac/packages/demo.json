@@ -1,0 +1,12 @@
+{
+	"title": "Crystal Picnic Demo",
+	"icon-size": 80,
+	"icon": "icon.icns",
+	"background": "bg.png",
+	"contents": [
+		{ "x": 120, "y": 100, "type": "file", "path": "Crystal Picnic Demo.app" },
+		{ "x": 280, "y": 100, "type": "link", "path": "/Applications" },
+		{ "x": 140, "y": 250, "type": "file", "path": "FreewareLicense.txt" },
+		{ "x": 260, "y": 250, "type": "file", "path": "ReadMe.txt" }
+	]
+}

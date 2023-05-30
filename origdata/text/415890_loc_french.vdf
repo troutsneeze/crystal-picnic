@@ -1,0 +1,27 @@
+"lang"
+{
+	"Language"	"french"
+	"Tokens"
+	{
+		"NEW_ACHIEVEMENT_1_0_NAME"	"Yarr des trésors"
+		"NEW_ACHIEVEMENT_1_0_DESC"	"Ouvrir tous les coffres du jeu."
+		"NEW_ACHIEVEMENT_1_1_NAME"	"Les accusés"
+		"NEW_ACHIEVEMENT_1_1_DESC"	"Prendre connaissance de la liste des personnes impliquées dans la réalisation de ce jeu."
+		"NEW_ACHIEVEMENT_1_2_NAME"	"Lapin malin"
+		"NEW_ACHIEVEMENT_1_2_DESC"	"Echapper aux abeilles dans le jeu bonus."
+		"NEW_ACHIEVEMENT_1_3_NAME"	"Main pleine"
+		"NEW_ACHIEVEMENT_1_3_DESC"	"Trouver tous les slots de cristaux."
+		"NEW_ACHIEVEMENT_1_4_NAME"	"Sur-vitaminé"
+		"NEW_ACHIEVEMENT_1_4_DESC"	"Utiliser un cristal."
+		"NEW_ACHIEVEMENT_1_5_NAME"	"Pif Paf"
+		"NEW_ACHIEVEMENT_1_5_DESC"	"Gagner un prix dans Whack-a-Skunk."
+		"NEW_ACHIEVEMENT_1_6_NAME"	"Lâche les chevaux"
+		"NEW_ACHIEVEMENT_1_6_DESC"	"Maximiser le score d'attaque d'un perso."
+		"NEW_ACHIEVEMENT_1_7_NAME"	"Bien tanké"
+		"NEW_ACHIEVEMENT_1_7_DESC"	"Maximiser le score de défense d'un perso."
+		"NEW_ACHIEVEMENT_1_8_NAME"	"L'étang d'Egbert"
+		"NEW_ACHIEVEMENT_1_8_DESC"	"Trouver la maison d'Egbert."
+		"NEW_ACHIEVEMENT_1_9_NAME"	"Les pieds dans l'eau"
+		"NEW_ACHIEVEMENT_1_9_DESC"	"Trouver la maison de Frogbert."
+	}
+}

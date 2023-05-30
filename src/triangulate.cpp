@@ -1,0 +1,75 @@
+#include <cctype>
+#include <cstdio>
+
+#include <poly2tri/poly2tri.h>
+
+#include "general_types.h"
+#include "triangulate.h"
+
+/* This used to be a full triangulator, but Allegro has one now so we use it */
+
+namespace Triangulate {
+
+void get_triangles(std::vector< General::Point<float> > point_vec, std::vector<int> split_vec, std::vector<Triangulate::Triangle> &triangle_vec)
+{
+	if (split_vec.size() == 0 || split_vec[0] <= 0) {
+		return;
+	}
+
+	//float *vertices;
+	//int *counts;
+
+	// check for duplicated points and give a warning
+	for (size_t i = 0; i < point_vec.size(); i++) {
+		for (size_t j = i+1; j < point_vec.size(); j++) {
+			if (point_vec[i] == point_vec[j]) {
+				printf("***** ERROR: DUPLICATE POINT IN POLYGON *****\n");
+				int *death = 0;
+				*death = 0xdead;
+			}
+		}
+	}
+
+	std::vector< std::vector<p2t::Point *> > all;
+	int curr = 0;
+	
+	for (size_t i = 0; i < split_vec.size(); i++) {
+		all.push_back(std::vector<p2t::Point *>());
+		for (; curr < split_vec[i]; curr++) {
+			p2t::Point *p = new p2t::Point();
+			p->x = point_vec[curr].x;
+			p->y = point_vec[curr].y;
+			all[i].push_back(p);
+		}
+	}
+
+	p2t::CDT *cdt = new p2t::CDT(all[0]);
+	for (size_t i = 1; i < all.size(); i++) {
+		cdt->AddHole(all[i]);
+	}
+
+	cdt->Triangulate();
+
+	std::vector<p2t::Triangle *> tris = cdt->GetTriangles();
+
+	for (size_t i = 0; i < tris.size(); i++) {
+		Triangulate::Triangle t;
+		p2t::Point *p;
+		for (int j = 0; j < 3; j++) {
+			p = tris[i]->GetPoint(j);
+			t.points[j].x = (float)p->x;
+			t.points[j].y = (float)p->y;
+		}
+		triangle_vec.push_back(t);
+	}
+
+	for (size_t i = 0; i < all.size(); i++) {
+		for (size_t j = 0; j < all[i].size(); j++) {
+			delete all[i][j];
+		}
+	}
+
+	delete cdt;
+}
+
+} // End namespace

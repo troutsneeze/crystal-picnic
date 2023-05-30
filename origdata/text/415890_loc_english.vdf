@@ -1,0 +1,27 @@
+"lang"
+{
+	"Language"	"english"
+	"Tokens"
+	{
+		"NEW_ACHIEVEMENT_1_0_NAME"	"Thar Be Treasure"
+		"NEW_ACHIEVEMENT_1_0_DESC"	"Open every chest in the game."
+		"NEW_ACHIEVEMENT_1_1_NAME"	"The Accused"
+		"NEW_ACHIEVEMENT_1_1_DESC"	"Watch the list of people guilty of making this game."
+		"NEW_ACHIEVEMENT_1_2_NAME"	"Honey Bunny"
+		"NEW_ACHIEVEMENT_1_2_DESC"	"Escape the bees in the bonus game."
+		"NEW_ACHIEVEMENT_1_3_NAME"	"All Decked Out"
+		"NEW_ACHIEVEMENT_1_3_DESC"	"Fill all crystal slots."
+		"NEW_ACHIEVEMENT_1_4_NAME"	"Beefed Up"
+		"NEW_ACHIEVEMENT_1_4_DESC"	"Use a crystal."
+		"NEW_ACHIEVEMENT_1_5_NAME"	"Bonk Bonk"
+		"NEW_ACHIEVEMENT_1_5_DESC"	"Win a prize at Whack-a-Skunk."
+		"NEW_ACHIEVEMENT_1_6_NAME"	"Whale On 'Em"
+		"NEW_ACHIEVEMENT_1_6_DESC"	"Max out attack on one character."
+		"NEW_ACHIEVEMENT_1_7_NAME"	"Tank Topped"
+		"NEW_ACHIEVEMENT_1_7_DESC"	"Top out defense on one character."
+		"NEW_ACHIEVEMENT_1_8_NAME"	"Egbert's Pond"
+		"NEW_ACHIEVEMENT_1_8_DESC"	"Find Egbert's House."
+		"NEW_ACHIEVEMENT_1_9_NAME"	"Frogbert's 'Pad"
+		"NEW_ACHIEVEMENT_1_9_DESC"	"Find Frogbert's house."
+	}
+}
